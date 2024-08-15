@@ -1,0 +1,19 @@
+Title : Image Plagiarism Detection System
+Overview
+This application is designed to detect image plagiarism by comparing uploaded images with a local dataset. The system uses histograms for image comparison and provides results based on similarity percentages. The application is built using Python with libraries such as OpenCV, Tkinter, and PIL for image processing and user interface.
+
+Features
+Image Upload: Allows users to upload an image to check for plagiarism.
+Histogram Comparison: Compares histograms of the uploaded image with images in a local dataset.
+Similarity Scoring: Displays similarity percentage and indicates if the image is plagiarized.
+
+
+Dataset
+The image dataset used for comparison was sourced from Kaggle. This dataset contains a collection of sea animal images used to check for similarities and detect potential plagiarism.
+
+Dataset Source: Kaggle Dataset
+
+Future Enhancements : 
+
+* Broader Image Search : 
+Currently, the system compares images only within a local dataset. Future enhancements could include integrating with online image search engines or databases to compare with a vast array of images on the web.
